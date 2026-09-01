@@ -17,9 +17,6 @@ body {
     margin: auto;
 }
 
-
-/* NAVBAR */
-
 .navbar {
     background: #292638;
     padding: 18px 0;
@@ -63,9 +60,6 @@ body {
     background: #e9795d;
 }
 
-
-/* DROPDOWN */
-
 .dropdown {
     position: relative;
 }
@@ -98,9 +92,6 @@ body {
     background: #e9795d;
     color: white;
 }
-
-
-/* HERO */
 
 .hero {
     padding: 90px 0;
@@ -136,9 +127,6 @@ body {
     margin-bottom: 25px;
 }
 
-
-/* BUTTON */
-
 .btn {
     display: inline-block;
     padding: 11px 18px;
@@ -164,9 +152,6 @@ body {
     color: white;
 }
 
-
-/* CARD */
-
 .card {
     background: white;
     padding: 25px;
@@ -177,9 +162,6 @@ body {
 .card:hover {
     transform: translateY(-4px);
 }
-
-
-/* FOTO */
 
 .profile-card {
     text-align: center;
@@ -215,9 +197,6 @@ body {
     margin-bottom: 12px;
 }
 
-
-/* SECTION */
-
 .section {
     padding: 70px 0;
 }
@@ -241,9 +220,6 @@ body {
     color: #777;
 }
 
-
-/* SKILL */
-
 .skill-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -262,9 +238,6 @@ body {
     color: #777;
     font-size: 13px;
 }
-
-
-/* LAYOUT */
 
 .two-column {
     display: grid;
@@ -292,9 +265,6 @@ body {
     color: #777;
 }
 
-
-/* TAG */
-
 .tag {
     display: inline-block;
     background: #f1e9df;
@@ -304,9 +274,6 @@ body {
     border-radius: 15px;
     font-size: 11px;
 }
-
-
-/* CONTACT */
 
 .contact-grid {
     display: grid;
@@ -328,9 +295,6 @@ body {
     color: #e9795d;
 }
 
-
-/* FORM */
-
 form {
     display: grid;
     gap: 10px;
@@ -349,9 +313,6 @@ textarea {
     height: 130px;
 }
 
-
-/* FOOTER */
-
 footer {
     background: #292638;
     color: white;
@@ -362,9 +323,6 @@ footer {
 .footer-name {
     color: #e9795d;
 }
-
-
-/* RESPONSIVE */
 
 @media (max-width: 750px) {
 
