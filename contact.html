@@ -8,25 +8,62 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
+<canvas id="particleCanvas"></canvas>
 
 <nav class="navbar">
     <div class="nav-inner">
-        <a class="logo" href="index.html">Zhaqi<span>.</span></a>
+
+        <a class="logo" href="index.html">
+            Zhaqi<span>.</span>
+        </a>
+
         <ul class="nav-menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
+
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="about.html">About</a>
+            </li>
+
             <li class="dropdown">
                 <a href="projects.html">Portfolio ▾</a>
+
                 <ul class="dropdown-content">
-                    <li><a href="projects.html#css">CSS & Styling</a></li>
-                    <li><a href="projects.html#image">CSS Image</a></li>
-                    <li><a href="projects.html#layout">Layout</a></li>
-                    <li><a href="projects.html#navigation">Navigation</a></li>
+                    <li>
+                        <a href="projects.html#css">CSS & Styling</a>
+                    </li>
+
+                    <li>
+                        <a href="projects.html#image">CSS Image</a>
+                    </li>
+
+                    <li>
+                        <a href="projects.html#layout">Layout</a>
+                    </li>
+
+                    <li>
+                        <a href="projects.html#navigation">Navigation</a>
+                    </li>
                 </ul>
             </li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="contact.html">Contact</a></li>
+
+            <li>
+                <a href="skills.html">Skills</a>
+            </li>
+
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+
         </ul>
+
+        <button id="themeToggle" class="theme-toggle" type="button">
+            <span id="themeIcon">☀️</span>
+            <span id="themeText">Terang</span>
+        </button>
+
     </div>
 </nav>
 
@@ -88,5 +125,6 @@
     </div>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
